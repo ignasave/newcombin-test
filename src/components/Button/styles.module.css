@@ -1,0 +1,14 @@
+.button {
+    color: #ffffff;
+    background: #4FC3A1;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.button:disabled {
+    background: #ccc;
+}

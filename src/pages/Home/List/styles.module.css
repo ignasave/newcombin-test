@@ -1,0 +1,41 @@
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flTable {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.flTable td, .flTable th {
+    text-align: center;
+    padding: 8px;
+}
+
+.flTable td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.flTable thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.flTable thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.flTable tr:nth-child(even) {
+    background: #F8F8F8;
+}
